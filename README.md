@@ -30,16 +30,4 @@ Each model is evaluated using:
 ```bash
 pip install -r requirements.txt
 
-```markdown
-## Dataset
-The dataset consists of tweets labeled into 5 categories of cyberbullying.  
-Preprocessing includes tokenization, cleaning, and padding.
 
-## 🧪 Results Summary
-
-| Model                      | Accuracy  |
-|---------------------------|-----------|
-| CNN + BiGRU + Attention   | 91.89%    |
-| CNN + BiLSTM + Attention  | 91.84%    |
-| Stacking Classifier       | 77.00%    |
-| Random Forest             | 77.00%    |
