@@ -26,8 +26,3 @@ Each model is evaluated using:
 
 ---
 
-## ⚙️ Installation
-```bash
-pip install -r requirements.txt
-
-
