@@ -1,28 +1,19 @@
 # classification-of-cyberbullying-tweets
 
 
-This repository focuses on the classification of cyberbullying tweets using a combination of classical machine learning models and advanced deep learning architectures with attention mechanisms. The goal is to accurately detect cyberbullying and categorize it into multiple classes.
+## 🧩 Most Challenging Problem I Solved Recently
 
----
+One of the most challenging problems I solved recently was building a robust machine learning model to classify different types of cyberbullying in tweets.  
+The dataset was highly imbalanced and contained a lot of informal language, slang, emojis, and misspellings, which made preprocessing and model generalization difficult.  
 
-## 🔍 Project Overview
+To tackle this, I experimented with both traditional ML algorithms such as KNN, Random Forest, and Stacking with XGBoost, as well as deep learning models like CNN, BiLSTM, and GRU with Attention.  
+I carefully tuned class weights, sampling techniques, and hyperparameters to handle imbalance and reduce bias toward the non-bullying class.  
 
-We explore and compare multiple approaches:
+Additionally, I implemented K-Fold Cross Validation, along with confusion matrices and detailed classification reports, to ensure strong generalization and fair evaluation across all classes.  
+Through multiple iterations, I achieved a significant boost in F1-scores for minority bullying categories and gained a deeper understanding of how different models respond to noisy, real-world social media text.  
 
-### Machine Learning Models:
-- **K-Nearest Neighbors (KNN)** with hyperparameter tuning
-- **Random Forest (RF)** with GridSearch optimization
-- **Stacking Classifier** combining RF and KNN with XGBoost as meta-learner
+This project not only strengthened my technical understanding of NLP and model evaluation but also honed my problem-solving approach to real-world, imbalanced data challenges.
 
-###  Deep Learning Models:
-- **CNN + BiLSTM + Attention** with K-Fold cross-validation
-- **CNN + BiGRU + Attention** architecture
-
-Each model is evaluated using:
-- Accuracy
-- Classification Report
-- Confusion Matrix
-- Cross-Validation Score (for robustness)
 
 ---
 
